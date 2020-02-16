@@ -12,7 +12,7 @@ my @givecolor = map { color ( $_ ) }
  ( 
     'dark white' , 'faint bold red', # 'dark on_bright_red black', # 0 1 
     'red ', 'bright_red' , 'yellow' ,  # 2 3 4
-    'green', 'bright_blue',  'magenta', # 5 6 7 
+    'green', 'bright_blue',  'bright_magenta', # 5 6 7 
     'white', 'bold bright_white' # 8 9 
  ) ;
 
