@@ -1,0 +1,61 @@
+
+<html>
+<head>
+<title>乱数を表示する</title>
+<font size=6>
+
+<script language="JavaScript"><!--
+for(f=0;f<=0;f++){
+	//document.write("<br>") 
+	document.write("<font size=1 color='blue'> '00'から'99'までの100個の値から単純にランダムに100個 :</font><br>")
+	for(g=1;g<=5;g++){
+	for(h=0;h<4;h++){
+		document.write("&nbsp&nbsp") ;
+		for (i=0; i<5; i++ ){
+ 			document.write ( Math.floor(Math.random() * ( 100 )+ 100 ).toString().substr(-2,2) )
+ 			document.write (" ")
+		}
+	}
+	document.write("<br>") 
+ }
+ //document.write("<br>") 
+}
+
+for(f=0;f<=0;f++){
+	//document.write("<br>") 
+	document.write("<font size=1 color='blue'> '00'から'19'までの100個の値から単純にランダムに100個 :</font><br>")
+	for(g=1;g<=5;g++){
+	for(h=0;h<4;h++){
+		document.write("&nbsp&nbsp") ;
+		for (i=0; i<5; i++ ){
+ 			document.write ( Math.floor(Math.random() * ( 20 )+ 100 ).toString().substr(-2,2) )
+ 			document.write (" ")
+		}
+	}
+	document.write("<br>") 
+ }
+ //document.write("<br>") 
+}
+
+for(f=0;f<=0;f++){
+	//document.write("<br>") 
+	document.write("<font size=1 color='blue'> 0からn-1までの整数からの一様乱数をn=1,2,..,100の場合にそれぞれ抽出し2桁表示 :</font><br>")
+	for(g=1;g<=5;g++){
+	for(h=0;h<4;h++){
+		document.write("&nbsp&nbsp") ;
+		for (i=0; i<5; i++ ){
+ 			document.write ( Math.floor(Math.random() * ( (g-1)*20+h*5+i+1)+ 100 ).toString().substr(-2,2) )
+ 			document.write (" ")
+		}
+	}
+	document.write("<br>") 
+ }
+ //document.write("<br>") 
+}
+
+	// --></script>
+</font>
+</head>
+<body>
+</body>
+</html>
